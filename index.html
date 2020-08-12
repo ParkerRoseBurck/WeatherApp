@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+ <html> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>To Do List</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        
+        <script src="main.js" async ></script>
+        
+    </head>
+    <body>
+        <div class="mainDiv">
+            <h1>Search a City</h1>
+            <div id='searchBar'><input type="text" id="city-input" value="City Name"><button id="city-button">Go</button></div>
+            <div class="img-parent">
+                <img class="clock-face" src="img/clock-face.png" alt="alarm clock" width="200">
+                <img class="clock-hands" id="hands" src="img/clock-hands.png" alt="alarm clock" width="200">
+            </div>
+            <div class="weather-img">
+                <img id="weather-icon" src="img/fewclouds-day.png" alt="weather icon" width="200">
+
+            </div>
+            <div id="weather">
+                <h2>Current Weather</h2>
+                <h4 id="description"></h4>
+                <h1 id="temp"></h1>
+            </div>
+            <div id ="dateTime">
+                <h2>Current Date and Time</h2>
+                <h4 id='timezone'></h4>
+                <h4 id="time"></h4>
+                <h1 id="long"> </h1>
+                <h1 id="lat"> </h1>
+
+                
+            </div>
+            
+        </div>
+       
+    </body>
+</html>
