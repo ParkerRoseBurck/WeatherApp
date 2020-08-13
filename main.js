@@ -57,7 +57,7 @@ function getWeather(){
     
     
     function time(long, lat){
-        fetch('http://api.timezonedb.com/v2.1/get-time-zone?key=PB1FKIGR9YXR&format=json&by=position&lat=' + lat + '&lng=' + long)
+        fetch('https://api.timezonedb.com/v2.1/get-time-zone?key=PB1FKIGR9YXR&format=json&by=position&lat=' + lat + '&lng=' + long)
         .then(function(resp){return resp.json();})
         .then(function(data){
             console.log("1) " + long + " " + lat);
