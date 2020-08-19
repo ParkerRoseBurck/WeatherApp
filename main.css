@@ -73,3 +73,19 @@ div.mainDiv{
 #long, #lat{
     display: none;
 }
+
+@media(max-width: 750px){
+    .img-parent{
+        margin-left:5%!important;
+    }
+    .weather-img{
+        padding-left:10%;
+        
+    }
+    img{
+        width:80%!important;
+    }
+    .weather-img img{
+        width: 60%!important;
+    }
+}
